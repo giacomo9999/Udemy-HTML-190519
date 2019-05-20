@@ -5,33 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Udemy HTML & CSS</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles2.css" />
   </head>
   <body>
     <!-- navigation wrapper -->
-    <div>
-      <!-- hours & phone -->
-      <div class="contact-hours-wrapper">
-        555 555 5555 10AM - Midnight
+    <div class="navigation-wrapper">
+      <div class="left-column">
+        <div class="icon">
+          <i class="fas fa-phone-volume"></i>
+        </div>
+        <div class="contact-hours-wrapper">
+          <div class="phone">555 555 5555</div>
+          <div class="hours">10AM - Midnight</div>
+        </div>
       </div>
       <!-- link wrapper -->
       <div>
-        <h1>Homepage</h1>
-        <div>
+        <!-- <h1>Homepage</h1> -->
+        <div class="nav-link">
           <a href="index.html">Home</a>
         </div>
-        <div>
+        <div class="nav-link">
           <a href="about.html">About</a>
         </div>
-        <div>
+        <div class="nav-link">
           <a href="contact.html">Contact</a>
         </div>
-        <div>
+        <div class="nav-link">
           <a href="menu.html">Menu</a>
         </div>
       </div>
       <div id="address-wrapper">
+        <i class="fas fa-map-marker-alt"></i>
         123 Main Street Anytown USA
       </div>
     </div>
