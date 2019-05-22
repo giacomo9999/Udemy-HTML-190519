@@ -13,6 +13,8 @@ body {
   padding: 100px;
 }
 
+/* Left column styles */
+
 .navigation-wrapper > .left-column {
   display: flex;
   align-items: center;
@@ -41,9 +43,13 @@ body {
   color: white;
 }
 
-.navigation-wrapper > .right-column > .address-wrapper {
+.links-wrapper > .nav-link a:hover {
   font-family: "Ubuntu Condensed", sans-serif;
+  color: #cea135;
+  letter-spacing: 2px;
 }
+
+/* Center column styles */
 
 .navigation-wrapper > .center-column {
   display: grid;
@@ -62,9 +68,46 @@ body {
   height: 100%;
 }
 
+.links-wrapper > .nav-link {
+  width: 70px;
+  text-align: center;
+}
+
 .links-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.links-wrapper > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .right-column > .address-wrapper {
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-align: right;
+}
+
+.navigation-wrapper > .right-column > .contact-icon {
+  margin-left: 15px;
+  font-size: 2em;
+}
+
+.navigation-wrapper > .right-column a {
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column a:hover {
+  color: #cea135;
+}
