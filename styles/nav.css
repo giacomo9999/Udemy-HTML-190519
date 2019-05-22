@@ -1,7 +1,3 @@
-body {
-  margin: 0px;
-  font-family: "Roboto", sans-serif;
-}
 
 .navigation-wrapper {
   height: 190px;
@@ -32,6 +28,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 5px;
+  color: #858585;
+  font-size: 0.8em;
 }
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
@@ -103,7 +101,7 @@ body {
 }
 
 .navigation-wrapper > .right-column a {
-  color: #cbcbcb;
+  color: #858585;
   text-decoration: none;
   transition: 0.5s;
 }
