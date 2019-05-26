@@ -1,0 +1,74 @@
+.footer-wrapper {
+  height: 120px;
+  background-color: #11122b;
+  color: #cbcbcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.footer-wrapper > .center-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  width: 500px;
+}
+
+.footer-wrapper > .center-column > .banner-image {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper > .center-column > .banner-image img {
+  width: 150px;
+  height: 100%;
+}
+
+.links-wrapper > .nav-link {
+  width: 70px;
+  text-align: center;
+}
+
+.links-wrapper {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-wrapper {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links-wrapper > .nav-link a {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #cbcbcb;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.contact-hours-wrapper {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.spacer {
+  height: 25px;
+  background-color: green;
+}
+
+.copyright-line > h4 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -35,6 +35,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Ubuntu Condensed", sans-serif;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
 
 .features-section > .columns-wrapper {
@@ -50,6 +51,7 @@
   border-bottom: 5px solid transparent;
   border-radius: 10px;
   transition: 1s;
+  
 }
 
 .features-section > .columns-wrapper > .column:hover {
@@ -74,4 +76,3 @@
 .features-section > .columns-wrapper > .column :nth-child(3) {
   letter-spacing: 2px;
 }
-
