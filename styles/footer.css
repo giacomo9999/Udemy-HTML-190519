@@ -23,6 +23,8 @@
 .footer-wrapper > .center-column > .banner-image img {
   width: 150px;
   height: 100%;
+  /* filter: brightness(50%); */
+  opacity: 0.5;
 }
 
 .links-wrapper > .nav-link {
@@ -30,11 +32,12 @@
   text-align: center;
 }
 
-.links-wrapper {
+.footer-wrapper > .center-column > .links-wrapper {
   font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* background-color: blue; */
 }
 
 .icons-wrapper {
@@ -58,12 +61,16 @@
   justify-content: space-around;
   align-items: center;
   transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1em;
 }
 
-.spacer {
-  height: 25px;
-  background-color: green;
+.contact-hours-wrapper > .hours {
+  color: #cea135;
 }
+
+
 
 .copyright-line > h4 {
   font-family: "Ubuntu Condensed", sans-serif;
