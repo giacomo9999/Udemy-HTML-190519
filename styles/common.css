@@ -12,6 +12,20 @@ h6 {
   font-family: "Roboto Slab", serif;
 }
 
+.anchor-link {
+  color: #cea135;
+  text-decoration: none;
+}
+
+.anchor-link:focus {
+  outline: none;
+}
+
+.anchor-link h1::after {
+  font-family: "Font Awesome 5 Free";
+  content: " \f0c1";
+}
+
 /* Page container styles */
 
 .page-container {
