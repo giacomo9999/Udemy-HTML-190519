@@ -4,15 +4,167 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles2.css" />
+    <title>Contact Us</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/homepage.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/skewed-header.css" />
+    <link rel="stylesheet" href="styles/square-grid.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
   </head>
   <body>
-    <h1>Contact</h1>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="menu.html">Menu</a>
+    <div class="skewed-header">
+      <div
+        class="header-bg"
+        style="background-image: url('./images/backgrounds/contact.jpg');"
+      ></div>
+
+      <div class="skewed-header-wrapper">
+        <div class="skewed-header-content">
+          <div class="heading-wrapper">
+            <h1>Contact Us</h1>
+          </div>
+
+          <div class="links-wrapper">
+            <div class="nav-link">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link">
+              <a href="about.html">About</a>
+            </div>
+            <div class="nav-link">
+              <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-link">
+              <a href="menu.html">Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-container">
+      <div class="contact-grid-wrapper">
+        <div class="company-metadata-sidebar-wrapper">
+          <div class="logo">
+            <img
+              src="./images/logos/decamp-fantastic-fries-logo-dark.png"
+              alt="Logo"
+            />
+          </div>
+          <div class="company-details-wrapper">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              123 Main Street<br />
+              Anytown USA
+            </div>
+          </div>
+          <div class="company-details-wrapper">
+            <i class="fas fa-phone-volume"></i>
+            <div>
+              555.555.1212
+            </div>
+          </div>
+          <div class="company-details-wrapper">
+            <i class="far fa-clock"></i>
+            <div>
+              Open 10AM - Midnight
+            </div>
+          </div>
+        </div>
+
+        <div class="form">
+          <div class="form-group">
+            <input type="text" id="fullName" placeholder="Your Name" />
+            <label for="fullName">Your Name</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your E-Mail" />
+            <label for="email">Your E-Mail</label>
+          </div>
+
+          <div class="form-group">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+            <label for="message">Your Message</label>
+          </div>
+
+          <div class="centered-button-wrapper">
+            <button type="submit" class="btn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer60"></div>
+
+    <div class="footer-wrapper">
+      <div class="center-column">
+        <div class="banner-image">
+          <img
+            src="./images/logos/decamp-fantastic-fries-logo-white.png"
+            alt="logo"
+          />
+        </div>
+        <div class="contact-hours-wrapper">
+          <span class="phone">555 555 5555</span>
+          <span class="hours">10AM - Midnight</span>
+        </div>
+
+        <div class="links-wrapper">
+          <div class="nav-link">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="nav-link">
+            <a href="about.html">About</a>
+          </div>
+          <div class="nav-link">
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="nav-link">
+            <a href="menu.html">Menu</a>
+          </div>
+        </div>
+        <!-- <div class="spacer"></div> -->
+        <div class="icons-wrapper">
+          <div class="nav-link">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="nav-link">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="nav-link">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </div>
+        <div class="copyright-line">
+          <h4>copyright 2018 by whatever.</h4>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
